@@ -1,0 +1,26 @@
+[core]
+  editor = emacs -nw
+  pager = /bin/more
+
+[color]
+  branch = always
+  diff = always
+  interactive = always
+  status = always
+  ui = always
+
+[user]
+  name = Alejandro Cabrera
+  email = cpp.cabrera@gmail.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	last = log -l HEAD
+	serve = daemon --reuseaddr --base-path=. --export-all --verbose
+[credential]
+	helper = cache --timeout=3600
+
+[diff "odf"]
+	textconv=odt2txt
