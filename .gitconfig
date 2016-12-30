@@ -10,8 +10,8 @@
   ui = always
 
 [user]
-  name = Alejandro Cabrera
-  email = cpp.cabrera@gmail.com
+  name = Allele Dev
+  email = allele.dev@gmail.com
 [alias]
 	co = checkout
 	ci = commit

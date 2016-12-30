@@ -15,8 +15,8 @@
               paren-mode 'sexp
               show-paren-mode t
               blink-cursor-alist '((t . hollow))
-              user-full-name "Alejandro Cabrera"
-              user-mail-address "cpp.cabrera@gmail.com"
+              user-full-name "Allele Dev"
+              user-mail-address "allele.dev@gmail.com"
               query-user-mail-address nil
               display-warning-minimum-level 'error
               disabled-command-function nil

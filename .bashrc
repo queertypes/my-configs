@@ -108,7 +108,6 @@ alias n="ninja -j$(($NUM_CORES + 1))"
 alias c='m clean'
 alias x='exit'
 alias rmtmp='rm *~'
-alias paraid='ssh -Y cabrera@paraid1.cs.fsu.edu'
 alias hpc='ssh -Y -C ac05k@submit.hpc.fsu.edu'
 alias now='date +%m_%d_%Y_%H_%M_%S'
 
@@ -190,12 +189,12 @@ alias correct_perms='for i in *; do if [ -d "$i" ]; then chmod 755 "$i"; else ch
 
 export CCACHE_PREFIX='distcc'
 export TERM="xterm-256color"
-export PATH='~/bin/dev-2.7/bin:~/bin:/usr/local/nginx/sbin:/usr/local/texlive/2011/bin/i386-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/Tools/jre1.6.0_31/bin:~/Tools/waf-1.7.0:~/Tools/powertop-1.98:/usr/local/cuda/bin:~/Tools/go/bin:~/Tools/jre1.7.0_07/bin:~/Tools/flavor:~/Tools/ninja:/usr/local/texlive/2012/bin/i386-linux/:~/QtSDK/Desktop/Qt/4.8.1/gcc/bin:~/Tools/cppcheck-1.56:~/QtSDK/Desktop/Qt/4.8.1/gcc/bin:~/Tools/waf:~/Tools/codesearch/codesearch-0.01'
+export PATH='~/bin/dev-2.7/bin:~/bin:/usr/local/nginx/sbin:/usr/local/texlive/2011/bin/i386-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/Tools/jre1.6.0_31/bin:~/Tools/waf-1.7.0:~/Tools/powertop-1.98:/usr/local/cuda/bin:~/Tools/go/bin:~/Tools/jre1.7.0_07/bin:~/Tools/flavor:~/Tools/ninja:/usr/local/texlive/2016/bin/i386-linux/:~/QtSDK/Desktop/Qt/4.8.1/gcc/bin:~/Tools/cppcheck-1.56:~/QtSDK/Desktop/Qt/4.8.1/gcc/bin:~/Tools/waf:~/Tools/codesearch/codesearch-0.01'
 
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 GITBASH='$(__git_ps1 "%s")'
 PS1="\[\e[0;91m\]\u\[\e[m\]@\[\e[0;92m\]\h\[\e[m\]:\[\e[1;95m\]\w\[\e[m\]\[\e[0;91m\][$GITBASH]\$\[\e[m\] "
 
-export QBUILD_ROOT='/home/alejandro/Development/build'
-export QSOURCE_ROOT='/home/alejandro/Development/ds-agent'
+export QBUILD_ROOT='/home/allele/Development/build'
+export QSOURCE_ROOT='/home/allele/Development/ds-agent'
